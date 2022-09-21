@@ -167,6 +167,13 @@ main {
 
 }
 
+.main-currency-table .currency-table-title-b{
+margin-bottom: 15px;
+font-size: 1.8rem;
+font-weight: bold;
+line-height: 2.3rem;
+color: var(--secondary-blue);
+}
 .currency-table--container{
     width: 90%;
     min-width: 230px;
@@ -558,4 +565,17 @@ footer .left ul{
 .left a {
     text-decoration: none;
     color: var(--white)
+}
+
+
+.main-tables-container {
+    display: flex;
+    /* gap: 50px; */
+    width: 60%;
+    height: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 40px auto;
+    padding: 10px;
 }
